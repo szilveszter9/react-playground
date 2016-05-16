@@ -1,0 +1,54 @@
+@media (max-width: 319px) {
+  html {
+    width: 20rem;
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 374px) {
+  html {
+    font-size: 66%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 434px) {
+  html {
+    font-size: 74%;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 567px) {
+  html {
+    font-size: 86%;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 599px) {
+  html {
+    font-size: 114%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  html {
+    font-size: 98%;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 110%;
+  }
+}

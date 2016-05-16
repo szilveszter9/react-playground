@@ -1,0 +1,123 @@
+.Error {
+  width: 15rem;
+}
+
+.Bill,
+.Bill--Details {
+  border-left: 0.3rem solid var(--style4Color);
+  padding: 0.8rem 2rem;
+}
+
+.text--DateGenerated,
+.text--DateDue,
+.text--DatePeriod {
+  clear: both;
+}
+
+.text--DateGenerated-name,
+.text--DateDue-name,
+.text--DatePeriod-name {
+  width: 10rem;
+}
+
+.text--DatePeriod-separator {
+  margin: 0 1rem;
+}
+
+.Statement,
+.Total {
+  clear: both;
+  padding: 0.8rem 2rem;
+}
+
+.Total {
+  float: right;
+}
+
+.text--SubTotal {
+  clear: both;
+  float: right;
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.Package,
+.Package--Head {
+  border-left: 0.3rem solid var(--style1Color);
+}
+
+.CallCharges,
+.CallCharges--Head {
+  border-left: 0.3rem solid var(--style2Color);
+}
+
+.SkyStore,
+.SkyStore--Head {
+  border-left: 0.3rem solid var(--style3Color);
+}
+
+.CallCharges,
+.Package,
+.SkyStore {
+  padding: 0.8rem 2rem;
+  clear: both;
+}
+
+.CallCharges--Head,
+.Package--Head,
+.SkyStore--Head {
+  padding: 0.8rem 2rem;
+}
+
+.CallCharges--Calls,
+.Package--Subscriptions,
+.SkyStore--BuyAndKeep,
+.SkyStore--Rentals {
+  margin-bottom: 2rem;
+}
+
+.CallCharges--Calls-item,
+.Package--Subscriptions-item,
+.SkyStore--BuyAndKeep-item,
+.SkyStore--Rentals-item {
+  padding: 0.2rem 1.5rem;
+  clear: both;
+}
+
+.Package--Subscriptions-item.even {
+  background: var(--style1ColorLight);
+}
+
+.CallCharges--Calls-item.even {
+  background: var(--style2ColorLight);
+}
+
+.SkyStore--BuyAndKeep-item.even,
+.SkyStore--Rentals-item.even {
+  background: var(--style3ColorLight);
+}
+
+.CallCharges--Head .text--SubTotal,
+.Package--Head .text--SubTotal,
+.SkyStore--Head .text--SubTotal {
+  margin-right: 0;
+}
+
+.text--Cost {
+  float: right;
+  margin-left: 1rem;
+}
+
+.text--SubscriptionType {
+  width: 10rem;
+}
+
+.text--PhoneNumber {
+  width: 19rem;
+}
+
+.SkyStore--Rentals,
+.SkyStore--BuyAndKeep {
+  margin-top: 0.5rem;
+  clear: both;
+}

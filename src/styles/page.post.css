@@ -1,0 +1,51 @@
+html {
+  color: var(--textColor);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+div {
+  float: left;
+}
+
+a div {
+  color: var(--textColor);
+}
+
+/* focus rules are specified in components.post.css */
+a:focus {
+  outline: none;
+  outline-style: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  clear: both;
+}
+
+.page {
+  position: relative;
+  clear: left;
+}
+
+.page > div {
+  position: absolute;
+}

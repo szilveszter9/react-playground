@@ -1,0 +1,67 @@
+html {
+  max-width: 26rem;
+}
+
+a .GoBack {
+  width: 22rem;
+}
+
+.Bill,
+.Bill--Details {
+  width: 22rem;
+}
+
+.Total {
+  font-size: 4.4rem;
+}
+
+.text--DateGenerated,
+.text--DateDue,
+.text--DatePeriod {
+  width: 22rem;
+}
+
+.text--DatePeriod-separator {
+  width: 1.2rem;
+  margin: 0;
+}
+
+.text--DatePeriod-dateFrom {
+  width: 8.8rem;
+  clear: both;
+}
+
+.text--DatePeriod-dateTo {
+  margin-left: 0;
+}
+
+.text--SubTotal {
+  margin-right: 0;
+}
+
+.CallCharges,
+.Package,
+.SkyStore {
+  width: 25rem;
+}
+
+.CallCharges--Head,
+.Package--Head,
+.SkyStore--Head {
+  width: 22rem;
+}
+
+.CallCharges--Calls-item,
+.Package--Subscriptions-item,
+.SkyStore--BuyAndKeep-item,
+.SkyStore--Rentals-item {
+  width: 21rem;
+}
+
+.text--Cost {
+  margin-right: 1rem;
+}
+
+.text--SubscriptionName {
+  clear: both;
+}

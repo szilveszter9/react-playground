@@ -1,0 +1,30 @@
+a:focus > div,
+a:focus .GoBack {
+  background-color: var(--style1ColorLight);
+  outline: 0.1rem solid var(--style1Color);
+}
+
+a:hover > div,
+a:hover .GoBack {
+  background-color: var(--style4ColorLight);
+}
+
+a .GoBack {
+  background: var(--goBackImage) transparent no-repeat left 0.5rem top 50%;
+  background-size: 2rem;
+  padding: 1.2rem 2rem 0.8rem 3rem;
+}
+
+a .Total,
+a .text--SubTotal {
+  background: var(--goForwardImage) transparent no-repeat right 0.5rem top 50%;
+  background-size: 3rem;
+}
+
+a .Total {
+  padding-right: 6rem;
+}
+
+a .text--SubTotal {
+  padding-right: 8.2rem;
+}
