@@ -16,6 +16,7 @@ If any issues, try with node: v4.2.6 and npm: 3.8.3
 ## Online
 
 Visit http://szilveszter9.github.io
+Non-minified bundle version: http://szilveszter9.github.io/test
 
 ## In focus
 
