@@ -42,7 +42,7 @@ Visit http://szilveszter9.github.io
 
 ## To be improved (in order)
 
-* Caching, single date request
+* Investigate why `npm run bundle:prod` fails a test, while `npm run bundle` is fine
 * Separate tests for ApiUtils
 * Test in IE
 * Make it obvious that Statement is not the total of each services
