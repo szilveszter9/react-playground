@@ -2,11 +2,18 @@ import { getJSON } from '../lib/http.js';
 import { API, ActionTypes } from '../Constants.js';
 import ServerActionCreators from '../actions/ServerActionCreators.js';
 
+let billCache;
+
 const ApiUtils = {
   loadBill () {
-    getJSON(`${API}/bill.json`, (err, res) => {
-      ServerActionCreators.loadedBill(res);
-    });
+    if(billCache)
+      ServerActionCreators.loadedBill(billCache);
+    else
+      getJSON(`${API}/bill.json`, (err, res) => {
+        if(!err)
+          billCache = res;
+        ServerActionCreators.loadedBill(res);
+      });
   }
 };
 

@@ -12,7 +12,7 @@
     "postcss": "postcss --use postcss-import --use postcss-cssnext ./src/styles/index.post.css -o ./dist/styles.css",
     "stylelint": "stylelint src/styles/*.css &",
     "bundle:styles": "nodemon -e css -w ./src/styles -x 'npm run stylelint; npm run postcss'",
-    "bundle:scripts": "nodemon -e js,jsx -w ./src -x 'npm run browserify && npm run compress && npm test & '",
+    "bundle:scripts": "nodemon -e js,jsx -w ./src -x 'NODE_ENV=production && npm run browserify && npm run compress && npm test & '",
     "compress": "npm run bundle:minify && npm run bundle:gzip",
     "bundle:minify": "uglifyjs --mangle -o dist/bundle-min.js -- dist/bundle.js",
     "bundle:gzip": "gzip -kf dist/bundle-min.js",
